@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Mitsubishielevator</title>
+    <link rel="shortcut icon" href="../images/common/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/aos.css" />
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/contents.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="../js/axios.min.js"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
+    <script src="../js/aos.js"></script>
+  </head>
+  <div class="wrap">
+    <div class="pc-layout">
+      <div class="header-wrap">
+        <div class="header">
+          <h1 class="logo">
+            <a href="index.html"><img src="../images/layout/logo.svg" alt="logo" /></a>
+            <span>MITSUBISHI ELEVATOR KOREA</span>
+          </h1>
+          <ul class="gnb">
+            <li>
+              <a href="project.html">Products</a>
+            </li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Innovation</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Customer Center</a></li>
+          </ul>
+          <div class="btn-menu">
+            <div class="lang-trigger">
+              <span class="lang-select">KOR</span>
+            </div>
+            <div class="btnAll">
+              <img src="../images/layout/gnb_menu.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mo-layout">
+      <div class="moCon" style="display: none">
+        <div class="black-bg"></div>
+        <div class="moMenu">
+          <span class="menu-top">
+            <ul class="rang">
+              <li><a href="#">KOR</a></li>
+              <li><a href="#">Global</a></li>
+            </ul>
+            <img src="../images/layout/top_menu_x.png" alt="" class="menu-x" />
+          </span>
+          <ul>
+            <li class="gnb-menu">
+              <a href="project.html">
+                <h3>Products</h3>
+              </a>
+              <ul>
+                <li><a href="">엘리베이터</a></li>
+                <li><a href="">에스컬레이터</a></li>
+                <li><a href="">교체 공사</a></li>
+                <li><a href="">국내 프로젝트</a></li>
+                <li><a href="">해외 프로젝트</a></li>
+                <li><a href="">쇼룸</a></li>
+              </ul>
+            </li>
+            <li class="gnb-menu">
+              <a href="">
+                <h3>Service</h3>
+              </a>
+              <ul>
+                <li><a href="">유지관리 서비스</a></li>
+                <li><a href="">차별화된 서비스</a></li>
+                <li><a href="">서비스 정보센터(MIC)</a></li>
+                <li><a href="">원격감시점검시스템</a></li>
+                <li><a href="">관제시스템(GIS)</a></li>
+                <li><a href="">스마트폰 AS 관리시스템</a></li>
+              </ul>
+            </li>
+            <li class="gnb-menu">
+              <a href="">
+                <h3>Innovation</h3>
+              </a>
+              <ul>
+                <li><a href="">최첨단 기술</a></li>
+                <li><a href="">스마트 기술</a></li>
+                <li><a href="">친환경 기술</a></li>
+              </ul>
+            </li>
+            <li class="gnb-menu">
+              <a href="">
+                <h3>Careers</h3>
+              </a>
+              <ul>
+                <li><a href="">인재상</a></li>
+                <li><a href="">복리후생/인사제도</a></li>
+                <li><a href="">인재육성</a></li>
+                <li><a href="">채용정보</a></li>
+                <li><a href="">상시채용(인재등록)</a></li>
+                <li><a href="">채용문의</a></li>
+                <li><a href="">채용서류 반환청구</a></li>
+              </ul>
+            </li>
+            <li class="gnb-menu">
+              <a href="">
+                <h3>Comany</h3>
+              </a>
+              <ul>
+                <li><a href="">회사소개</a></li>
+                <li><a href="">지속가능경영</a></li>
+                <li><a href="">홍보센터</a></li>
+              </ul>
+            </li>
+            <li class="gnb-menu">
+              <a href="">
+                <h3>Customer Center</h3>
+              </a>
+              <ul>
+                <li><a href="">사이버 신문고</a></li>
+                <li><a href="">고객문의</a></li>
+                <li><a href="">고객 자료실</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="menu-bottom">
+            <h4>고객문의</h4>
+            <dl>
+              <dt>서비스정보센터(24시)</dt>
+              <dd>1899-9449</dd>
+            </dl>
+            <dl>
+              <dt>영업</dt>
+              <dd>02-6670-2000</dd>
+            </dl>
+            <dl>
+              <dt>설치</dt>
+              <dd>02-6670-2114</dd>
+            </dl>
+            <dl>
+              <dt>보수</dt>
+              <dd>02-6670-2163</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="top-btn">
+      <img src="../images/main/topBtn.png" alt="" />
+    </div>
+    <div class="subMenu">
+      <div class="subVisual productbg">
+        <h2>
+          <strong>Products</strong>
+          프로젝트
+        </h2>
+      </div>
+      <div class="sub-nav">
+        <div class="nav-bg">
+          <ul>
+            <li>
+              <a href=""><img src="../images/subpage/home.png" alt="" /></a>
+            </li>
+            <li>
+              <div class="select-wrap">
+                <div class="select-source">
+                  <span class="select-trigger">Products</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="select-wrap">
+                <div class="select-source">
+                  <span class="select-trigger">프로젝트</span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="select-wrap">
+                <div class="select-source">
+                  <span class="select-trigger">국내</span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="subContent clearfix">
+      <button class="btn">키워드 선택</button>
+      <div class="left-category clearfix">
+        <form id="form" method="post">
+          <dl class="category clearfix">
+            <dt>용도</dt>
+            <input type="checkbox" id="val01" name="submit" data-filter="office" />
+            <label for="val01">오피스</label>
+          </dd>
+          <dd>
+            <input type="checkbox" id="val02" name="submit" data-filter="hotel" />
+            <label for="val02">호텔</label>
+          </dd>
+          <dd>
+            <input type="checkbox" id="val03" name="submit" data-filter="residential" />
+            <label for="val03">주상복합</label>
+          </dd>
+          <dd>
+            <input type="checkbox" id="val04" name="submit" data-filter="apartment" />
+            <label for="val04">아파트</label>
+          </dd>
+          <dd>
+            <input type="checkbox" id="val05" name="submit" data-filter="public" />
+            <label for="val05">공공,병원</label>
+          </dd>
+          <dd>
+            <input type="checkbox" id="val06" name="submit" data-filter="mod" />
+            <label for="val06">MOD</label>
+          </dd>
+        </dl>
+        <dl class="category clearfix">
+          <dt>속도</dt>
+          <dd>
+            <input type="checkbox" id="val07" name="submit" data-speedfilter="superfast" />
+            <label for="val07">초고속</label>
+          </dd>
+          <dd>
+            <input type="checkbox" id="val08" name="submit" data-speedfilter="fast" />
+            <label for="val08">고속</label>
+          </dd>
+          <dd>
+            <input type="checkbox" id="val09" name="submit" data-speedfilter="low" />
+            <label for="val09">중저속</label>
+          </dd>
+        </dl>
+        <dl class="category clearfix">
+          <dt>옵션</dt>
+          <dd>
+            <input type="checkbox" id="val10" name="submit" />
+            <label for="val10" data-reservefilter="reservation">목적층예약시스템</label>
+          </dd>
+
+          </dl>
+        </form>
+      </div>
+      <div class="right-list">
+        <ul class="clearfix"></ul>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-wrap">
+        <span class="add">서울특별시 영등포구 국회대로76길22 (여의도동) 기계회관 신관9층</span>
+        <span class="tel">Tel. 02-6670-2000</span>
+        <span class="fax">Fax. 02-6670-2049</span>
+
+        <div class="copy">
+          <ul class="clearfix">
+            <li><a href="#" class="privacy-open">개인정보처리방침</a></li>
+            <li>
+              <a href="#" class="sensitive-open">민감정보 수집이용동의서</a>
+            </li>
+          </ul>
+          <p>© 2022 Mitsubishi Elevator Korea. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    // const filteringData = (obj) => {
+    //   let tempHtml = "";
+    //   if (obj.checked == false) {
+    //     /* TODO: 체크해제했을 때 동작을 여기에 넣는다. */
+    //     $.each(allData, function (idx, item) {
+    //       tempHtml += `
+    //         <li>
+    //         <a href="#">
+    //           <img src="${imageFolder + item.img}" alt="" />
+    //           <div class="imgbg"></div>
+    //           <h3>
+    //             ${item.title}
+    //             <dl class="clearfix">
+    //               <dt>위치</dt>
+    //               <dd>${item.location}</dd>
+    //             </dl>
+    //             <dl class="clearfix">
+    //               <dt>설치년도</dt>
+    //               <dd>${item.year}</dd>
+    //             </dl>
+    //             <dl class="clearfix">
+    //               <dt>층수</dt>
+    //               <dd>${item.floors}</dd>
+    //             </dl>
+    //             <dl class="clearfix">
+    //               <dt>속도</dt>
+    //               <dd>${item.speed}</dd>
+    //             </dl>
+    //             <dl class="clearfix">
+    //               <dt>대수</dt>
+    //               <dd>${item.logarithm}</dd>
+    //             </dl>
+    //             <img src="../images/subpage/fit_list_more.png" class="ico-detail" />
+    //           </h3>
+    //         </a>
+    //       </li>`;
+    //     });
+    //     itemList.html(tempHtml);
+    //   } else if (obj.checked == true) {
+    //     let filteredData = allData.filter((v) => v.category == obj.name);
+    //     $.each(filteredData, function (idx, item) {
+    //       tempHtml += `
+    //         <li>
+    //         <a href="#">
+    //           <img src="${imageFolder + item.img}" alt="" />
+    //           <div class="imgbg"></div>
+    //           <h3>
+    //             ${item.title}
+    //             <dl class="clearfix">
+    //               <dt>위치</dt>
+    //               <dd>${item.location}</dd>
+    //             </dl>
+    //             <dl class="clearfix">
+    //               <dt>설치년도</dt>
+    //               <dd>${item.year}</dd>
+    //             </dl>
+    //             <dl class="clearfix">
+    //               <dt>층수</dt>
+    //               <dd>${item.floors}</dd>
+    //             </dl>
+    //             <dl class="clearfix">
+    //               <dt>속도</dt>
+    //               <dd>${item.speed}</dd>
+    //             </dl>
+    //             <dl class="clearfix">
+    //               <dt>대수</dt>
+    //               <dd>${item.logarithm}</dd>
+    //             </dl>
+    //             <img src="../images/subpage/fit_list_more.png" class="ico-detail" />
+    //           </h3>
+    //         </a>
+    //       </li>`;
+    //     });
+    //   }
+    //   itemList.html(tempHtml);
+    // };
+
+    // // 체크박스 로드, html상의 dataset label에서 checkbox 태그로 이동
+    // const btns = document.querySelectorAll("input[type=checkbox]");
+
+    // let checkedObj = { name: "", checked: false };
+    // for (let i = 0, max = btns.length; i < max; i++) {
+    //   btns[i].addEventListener("change", (e) => {
+    //     checkedObj.name = e.target.dataset.filter;
+    //     checkedObj.checked = e.target.checked;
+    //     filteringData(checkedObj);
+    //   });
+    // }
+
+    // // ajax호출 후 담을 변수 전역으로 설정
+    // let allData;
+    // let imageFolder;
+
+    // const itemList = $(".right-list ul");
+    // const filterList = $(".left-category .category dd label");
+
+    // let grid = null;
+    // const project = function (filterList) {
+    //   $.ajax({ url: "../data/typo.json" }).done(function (data) {
+    //     allData = data.typoList;
+    //     imageFolder = data.imageFolder;
+    //     console.log("imageFolder ===> ", imageFolder);
+    //     let tempHtml = "";
+
+    //     $.each(allData, function (idx, item) {
+    //       tempHtml += `
+    //         <li>
+    //         <a href="#">
+    //           <img src="${imageFolder + item.img}" alt="" />
+    //           <div class="imgbg"></div>
+    //           <h3>
+    //             ${item.title}
+    //             <dl class="clearfix">
+    //               <dt>위치</dt>
+    //               <dd>${item.location}</dd>
+    //             </dl>
+    //             <dl class="clearfix">
+    //               <dt>설치년도</dt>
+    //               <dd>${item.year}</dd>
+    //             </dl>
+    //             <dl class="clearfix">
+    //               <dt>층수</dt>
+    //               <dd>${item.floors}</dd>
+    //             </dl>
+    //             <dl class="clearfix">
+    //               <dt>속도</dt>
+    //               <dd>${item.speed}</dd>
+    //             </dl>
+    //             <dl class="clearfix">
+    //               <dt>대수</dt>
+    //               <dd>${item.logarithm}</dd>
+    //             </dl>
+    //             <img src="../images/subpage/fit_list_more.png" class="ico-detail" />
+    //           </h3>
+    //         </a>
+    //       </li>`;
+    //     });
+    //     itemList.html(tempHtml);
+    //   });
+    // };
+    // project(filterList);
+    let allData = [];
+    let filteredData = [];
+    let speedArray = [];
+    let checkedValue = "";
+    let imageFolder = "";
+    let grid = null;
+    let allBox = document.querySelectorAll("input[type=checkbox]");
+    let chkboxes = document.querySelectorAll("[data-filter]");
+    const speedBoxes = document.querySelectorAll("[data-speedfilter]");
+
+    const itemList = $(".right-list ul");
+    const filterList = $(".left-category .category dd label");
+
+    const fetchData = () => {
+      return new Promise((resolve, reject) => {
+        axios
+          .get("../data/typo.json")
+          .then((response) => resolve(response))
+          .catch((err) => reject(err));
+      });
+    };
+    const dataShowing = (data) => {
+      let tempHtml = "";
+      $.each(data, function (idx, item) {
+        tempHtml += `
+            <li>
+            <a href="#">
+              <img src="${imageFolder + item.img}" alt="" />
+              <div class="imgbg"></div>
+              <h3>
+                ${item.title}
+                <dl class="clearfix">
+                  <dt>위치</dt>
+                  <dd>${item.location}</dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt>설치년도</dt>
+                  <dd>${item.year}</dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt>층수</dt>
+                  <dd>${item.floors}</dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt>속도</dt>
+                  <dd>${item.speed}</dd>
+                </dl>
+                <dl class="clearfix">
+                  <dt>대수</dt>
+                  <dd>${item.logarithm}</dd>
+                </dl>
+                <img src="../images/subpage/fit_list_more.png" class="ico-detail" />
+              </h3>
+            </a>
+          </li>`;
+      });
+      itemList.html(tempHtml);
+    };
+
+    const speedMatch = (value) => {
+      if (value >= 360) return "superfast";
+      else if (value >= 120 && value < 360) return "fast";
+      else return "low";
+    };
+
+    const getData = async () => {
+      const { data: res = {} } = await fetchData();
+
+      //const response = await fetchData();;
+      //const res = response.data;
+
+      allData = res.typoList.map((v) => {
+        v.speedStandard = speedMatch(v.speed);
+        return v;
+      });
+      filteredData = res.typoList.map((v) => {
+        v.speedStandard = speedMatch(v.speed);
+        return v;
+      });
+      imageFolder = res.imageFolder;
+
+      /*
+      초고속 : 360 이상
+      고속 : 120~359
+      중저속 : 나머지
+      */
+
+      dataShowing(allData);
+    };
+
+    allBox.forEach((v) => {
+      v.addEventListener("change", ({ target }) => {
+        event;
+        event.target;
+        
+        /*
+        1. target.dataset.filter 인지 target.dataset.speedfilter인지 구분
+        */
+
+        if (Object.keys(target.dataset)[0] == "filter") {
+          // 용도 박스는 1개만 선택된다.
+          chkboxes.forEach((itm) => {
+            if (itm.dataset.filter != target.dataset.filter) itm.checked = false;
+          });
+          if (Array.from(chkboxes).filter((itm) => itm.checked).length == 0) {
+            if (speedArray.length == 0) filteredData = allData;
+            
+            else if (speedArray.length > 0) filteredData = allData.filter((itm) => speedArray.includes(itm.speedStandard));
+          } else {
+            if (speedArray.length == 0) filteredData = allData.filter((itm) => itm.category == target.dataset.filter);
+            else if (speedArray.length > 0) filteredData = allData.filter((itm) => itm.category == target.dataset.filter).filter((itm) => speedArray.includes(itm.speedStandard));
+          }
+        } else if (Object.keys(target.dataset)[0] == "speedfilter") {
+          // 속도 박스는 여러 개 선택 가능
+          speedArray = Array.from(speedBoxes)
+            .filter((itm) => itm.checked)
+            .map((itm) => itm.dataset.speedfilter);
+
+          let checkedValue = Array.from(chkboxes)
+            .filter((itm) => itm.checked)
+            .map((itm) => itm.dataset.filter)[0];
+
+          if (checkedValue != undefined) {
+            // 체크된 용도값 존재
+            filteredData = allData.filter((itm) => itm.category == checkedValue).filter((itm) => speedArray.includes(itm.speedStandard));
+          } else if (checkedValue == undefined) {
+            // 체크된 용도값 없음
+            if (speedArray.length > 0) filteredData = allData.filter((itm) => speedArray.includes(itm.speedStandard));
+            else if (speedArray.length == 0) filteredData = allData;
+          }
+        }
+        dataShowing(filteredData);
+      });
+    });
+
+    getData();
+
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 600) {
+        $(".top-btn").addClass("on");
+      } else {
+        $(".top-btn").removeClass("on");
+      }
+      $(".top-btn").on("click", function () {
+        $("html, body").stop().animate(
+          {
+            scrollTop: 0,
+          },
+          500
+        );
+      });
+    });
+
+    const moMenu = document.querySelector(".moMenu");
+    const btnAll = document.querySelector(".btnAll");
+    const moCon = document.querySelector(".moCon");
+    const menuClose = document.querySelector(".menu-x");
+    const htmltemp = document.querySelector("html");
+    btnAll.addEventListener("click", function () {
+      moMenu.classList.add("open");
+      moCon.style.display = moCon.style.display !== "none" ? "none" : "block";
+      htmltemp.classList.toggle("on");
+    });
+    menuClose.addEventListener("click", function () {
+      moCon.style.display = moCon.style.display != "none" ? "none" : "block";
+      moMenu.classList.remove("open");
+      htmltemp.classList.toggle("on");
+    });
+  </script>
+</html>

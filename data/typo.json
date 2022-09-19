@@ -1,0 +1,330 @@
+{
+  "imageFolder": "../images/subpage/",
+  "typoList": [
+    {
+      "img": "20220112103226.jpg",
+      "title": "그랜드센트럴",
+      "location": "서울 중구 남대문구5가",
+      "year": "2020년",
+      "floors": "36",
+      "speed": "240",
+      "logarithm": "ELEV.29",
+      "category": "office",
+      "reservation": "system"
+    },
+    {
+      "img": "20220112102604.jpg",
+      "title": "분당두산타워",
+      "location": "성남 분당구 정자동",
+      "year": "2020년",
+      "floors": "34",
+      "speed": "300",
+      "logarithm": "ELEV.27",
+      "category": "office",
+      "speedstandsard": "superfast"
+    },
+    {
+      "img": "20220113132921.jpg",
+      "title": "SK서린빌딩",
+      "location": "서울 종로구 서린동",
+      "year": "2019년",
+      "floors": "43",
+      "speed": "360",
+      "logarithm": "ELEV.17",
+      "category": "office"
+    },
+    {
+      "img": "20220112101650.jpg",
+      "title": "파르나스타워",
+      "location": "서울 강남구 삼성동",
+      "year": "2016년",
+      "floors": "45",
+      "speed": "360",
+      "logarithm": "ELEV.22",
+      "category": "office"
+    },
+    {
+      "img": "20200721152552.jpg",
+      "title": "삼성엔지니어링 글로벌엔지니어링 센터",
+      "location": "서울 강동구 상일동",
+      "year": "201@년",
+      "floors": "17",
+      "speed": "240",
+      "logarithm": "ELEV.37",
+      "category": "office",
+      "reservation": "system"
+    },
+    {
+      "img": "20200721152458.jpg",
+      "title": "삼성전자DSR타워",
+      "location": "화성시 반월동",
+      "year": "2013년",
+      "floors": "31",
+      "speed": "240",
+      "logarithm": "ELEV.68,ESC.18",
+      "category": "office",
+      "reservation": "system"
+    },
+    {
+      "img": "20200721152410.jpg",
+      "title": "엔씨소프트 R&D 센터",
+      "location": "성남시 분당구 삼평동",
+      "year": "2013년",
+      "floors": "8",
+      "speed": "90",
+      "logarithm": "ELEV.10",
+      "category": "office"
+    },
+    {
+      "img": "20200721152245.jpg",
+      "title": "현대자동차 사옥",
+      "location": "서울 서초구 양재동",
+      "year": "2006년",
+      "floors": "22",
+      "speed": "210",
+      "logarithm": "ELEV.20",
+      "category": "office"
+    },
+    {
+      "img": "20200721152149.jpg",
+      "title": "페럼타워",
+      "location": "서울 중구 수하동",
+      "year": "2010년",
+      "floors": "28",
+      "speed": "300",
+      "logarithm": "ELEV.15",
+      "category": "office",
+      "reservation": "system"
+    },
+    {
+      "img": "20200721152323.jpg",
+      "title": "GT 타워",
+      "location": "서울 서초구 서초동",
+      "year": "2011년",
+      "floors": "24",
+      "speed": "180",
+      "logarithm": "ELEV.12",
+      "category": "office"
+    },
+    {
+      "img": "20200721151619.jpg",
+      "title": "롯데월드타워/시그니엘 서울",
+      "location": "서울 송파구 신천동",
+      "year": "2017년",
+      "floors": "101",
+      "speed": "480",
+      "logarithm": "ELEV.8",
+      "category": "hotel"
+    },
+    {
+      "img": "20220112100125.jpg",
+      "title": "LCT시그니엘 부산",
+      "location": "부산 해운대구 중동",
+      "year": "2019년",
+      "floors": "21",
+      "speed": "180",
+      "logarithm": "ELEV.11",
+      "category": "hotel"
+    },
+    {
+      "img": "20200721155121.jpg",
+      "title": "스위스 그랜드 호텔",
+      "location": "서울 서대문구 홍은동",
+      "year": "1988년",
+      "floors": "13",
+      "speed": "150",
+      "logarithm": "ELEV.5",
+      "category": "hotel"
+    },
+    {
+      "img": "20200721155031.jpg",
+      "title": "웨스틴 조선 서울",
+      "location": "서울 중구 소공동",
+      "year": "2012년",
+      "floors": "19",
+      "speed": "150",
+      "logarithm": "ELEV.4",
+      "category": "hotel"
+    },
+    {
+      "img": "20200721154940.jpg",
+      "title": "JW 메리어트 동대문 스퀘어 서울",
+      "location": "서울 종로구 종로6가",
+      "year": "2018년",
+      "floors": "32",
+      "speed": "240",
+      "logarithm": "ELEV.11",
+      "category": "hotel"
+    },
+    {
+      "img": "20200721154830.jpg",
+      "title": "그랜드 워커힐 서울",
+      "location": "서울 광진구 광장동",
+      "year": "2014년",
+      "floors": "15",
+      "speed": "240",
+      "logarithm": "ELEV.4",
+      "category": "hotel"
+    },
+    {
+      "img": "20220112103503.jpg",
+      "title": "해운대LCT레지던스",
+      "location": "부산 해운대구 중동",
+      "year": "2019년",
+      "floors": "106",
+      "speed": "360",
+      "logarithm": "ELEV.35",
+      "category": "residential"
+    },
+    {
+      "img": "20200721153721.jpg",
+      "title": "중동 리젠시아",
+      "location": "부산 원미구 중동",
+      "year": "2012년",
+      "floors": "67",
+      "speed": "240",
+      "logarithm": "ELEV.16",
+      "category": "residential"
+    },
+    {
+      "img": "20200721153602.jpg",
+      "title": "파크타워",
+      "location": "서울 용산구 용산동",
+      "year": "2009년",
+      "floors": "34",
+      "speed": "180",
+      "logarithm": "ELEV.25",
+      "category": "residential"
+    },
+    {
+      "img": "20200721153450.jpg",
+      "title": "래미안 첼리투스",
+      "location": "서울 용산구 이촌동",
+      "year": "2015년",
+      "floors": "56",
+      "speed": "240",
+      "logarithm": "ELEV.11",
+      "category": "residential"
+    },
+    {
+      "img": "20200721153359.jpg",
+      "title": "타워팰리스 3차",
+      "location": "서울 강남구 도곡동",
+      "year": "2004년",
+      "floors": "71",
+      "speed": "300",
+      "logarithm": "ELEV.22",
+      "category": "residential"
+    },
+    {
+      "img": "20200721153249.jpg",
+      "title": "해운대 위브더제니스",
+      "location": "부산시 해운대구 우동",
+      "year": "2011년",
+      "floors": "82",
+      "speed": "300",
+      "logarithm": "ELEV.61",
+      "category": "residential"
+    },
+    {
+      "img": "20220112140443.jpg",
+      "title": "아크로리버파크 반포",
+      "location": "서울 서초구 반포동",
+      "year": "2016년",
+      "floors": "38",
+      "speed": "210",
+      "logarithm": "ELEV.43",
+      "category": "apartment"
+    },
+    {
+      "img": "20220113132020.jpg",
+      "title": "아크로서울포레스트",
+      "location": "서울 성동구 성수동",
+      "year": "2020년",
+      "floors": "53",
+      "speed": "300",
+      "logarithm": "ELEV.10",
+      "category": "apartment"
+    },
+    {
+      "img": "20220112103619.jpg",
+      "title": "해운대LCT더샵",
+      "location": "부산 해운대구 중동",
+      "year": "2019년",
+      "floors": "90",
+      "speed": "300",
+      "logarithm": "ELEV.32",
+      "category": "apartment"
+    },
+    {
+      "img": "20220112103747.jpg",
+      "title": "과천위버필드",
+      "location": "과천시 원문동",
+      "year": "2020년",
+      "floors": "38",
+      "speed": "150",
+      "logarithm": "ELEV.52",
+      "category": "apartment"
+    },
+    {
+      "img": "20200721151255.jpg",
+      "title": "반포래미안 퍼스티지",
+      "location": "서울 반포구 반포동",
+      "year": "2009년",
+      "floors": "31",
+      "speed": "120",
+      "logarithm": "ELEV.60",
+      "category": "apartment"
+    },
+    {
+      "img": "20200721150941.jpg",
+      "title": "청담자이",
+      "location": "서울 강남구 청담동",
+      "year": "2011년",
+      "floors": "35",
+      "speed": "120",
+      "logarithm": "ELEV.18",
+      "category": "apartment"
+    },
+    {
+      "img": "20200721150154.jpg",
+      "title": "한남 더힐",
+      "location": "서울 용산구 한남동",
+      "year": "2010년",
+      "floors": "12",
+      "speed": "900",
+      "logarithm": "ELEV.61",
+      "category": "apartment"
+    },
+    {
+      "img": "20200720165110.jpg",
+      "title": "사랑의 교회",
+      "location": "서울 서초구 서초동",
+      "year": "2013년",
+      "floors": "14",
+      "speed": "150",
+      "logarithm": "ELEV.11",
+      "category": "public"
+    },
+    {
+      "img": "20200720164954.jpg",
+      "title": "세브란스병원 암센터",
+      "location": "서울 서대문구 신촌동",
+      "year": "2005년",
+      "floors": "15",
+      "speed": "240",
+      "logarithm": "ELEV.23",
+      "category": "public"
+    },
+    {
+      "img": "20200720164641.jpg",
+      "title": "포스코타워 역삼",
+      "location": "서울 강남구 역삼동",
+      "year": "2014년",
+      "floors": "27",
+      "speed": "240",
+      "logarithm": "ELEV.8",
+      "category": "mod"
+    }
+  ]
+}
