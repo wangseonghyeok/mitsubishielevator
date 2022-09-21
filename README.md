@@ -14,6 +14,7 @@
 # Features
 * Swiper
 * Axios
+
 # Development(Main Page Important part)
 ![1](https://user-images.githubusercontent.com/102776957/191398513-9ff3d865-51f1-4d5e-8375-07d4bfac7b3b.JPG)
 * 숫자 애니메이션을 구현  division loadCapacity doubleDech
