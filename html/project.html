@@ -201,53 +201,54 @@
         <form id="form" method="post">
           <dl class="category clearfix">
             <dt>용도</dt>
-            <input type="checkbox" id="val01" name="submit" data-filter="office" />
-            <label for="val01">오피스</label>
-          </dd>
-          <dd>
-            <input type="checkbox" id="val02" name="submit" data-filter="hotel" />
-            <label for="val02">호텔</label>
-          </dd>
-          <dd>
-            <input type="checkbox" id="val03" name="submit" data-filter="residential" />
-            <label for="val03">주상복합</label>
-          </dd>
-          <dd>
-            <input type="checkbox" id="val04" name="submit" data-filter="apartment" />
-            <label for="val04">아파트</label>
-          </dd>
-          <dd>
-            <input type="checkbox" id="val05" name="submit" data-filter="public" />
-            <label for="val05">공공,병원</label>
-          </dd>
-          <dd>
-            <input type="checkbox" id="val06" name="submit" data-filter="mod" />
-            <label for="val06">MOD</label>
-          </dd>
-        </dl>
-        <dl class="category clearfix">
-          <dt>속도</dt>
-          <dd>
-            <input type="checkbox" id="val07" name="submit" data-speedfilter="superfast" />
-            <label for="val07">초고속</label>
-          </dd>
-          <dd>
-            <input type="checkbox" id="val08" name="submit" data-speedfilter="fast" />
-            <label for="val08">고속</label>
-          </dd>
-          <dd>
-            <input type="checkbox" id="val09" name="submit" data-speedfilter="low" />
-            <label for="val09">중저속</label>
-          </dd>
-        </dl>
-        <dl class="category clearfix">
+            <dd>
+              <input type="checkbox" id="val01" name="submit" data-filter="office" />
+              <label for="val01">오피스</label>
+            </dd>
+            <dd>
+              <input type="checkbox" id="val02" name="submit" data-filter="hotel" />
+              <label for="val02">호텔</label>
+            </dd>
+            <dd>
+              <input type="checkbox" id="val03" name="submit" data-filter="residential" />
+              <label for="val03">주상복합</label>
+            </dd>
+            <dd>
+              <input type="checkbox" id="val04" name="submit" data-filter="apartment" />
+              <label for="val04">아파트</label>
+            </dd>
+            <dd>
+              <input type="checkbox" id="val05" name="submit" data-filter="public" />
+              <label for="val05">공공,병원</label>
+            </dd>
+            <dd>
+              <input type="checkbox" id="val06" name="submit" data-filter="mod" />
+              <label for="val06">MOD</label>
+            </dd>
+          </dl>
+          <dl class="category clearfix">
+            <dt>속도</dt>
+            <dd>
+              <input type="checkbox" id="val07" name="submit" data-speedfilter="superfast" />
+              <label for="val07">초고속</label>
+            </dd>
+            <dd>
+              <input type="checkbox" id="val08" name="submit" data-speedfilter="fast" />
+              <label for="val08">고속</label>
+            </dd>
+            <dd>
+              <input type="checkbox" id="val09" name="submit" data-speedfilter="low" />
+              <label for="val09">중저속</label>
+            </dd>
+          </dl>
+          <!-- <dl class="category clearfix">
           <dt>옵션</dt>
           <dd>
             <input type="checkbox" id="val10" name="submit" />
             <label for="val10" data-reservefilter="reservation">목적층예약시스템</label>
           </dd>
 
-          </dl>
+          </dl> -->
         </form>
       </div>
       <div class="right-list">
@@ -482,9 +483,6 @@
     const getData = async () => {
       const { data: res = {} } = await fetchData();
 
-      //const response = await fetchData();;
-      //const res = response.data;
-
       allData = res.typoList.map((v) => {
         v.speedStandard = speedMatch(v.speed);
         return v;
@@ -508,7 +506,7 @@
       v.addEventListener("change", ({ target }) => {
         event;
         event.target;
-        
+
         /*
         1. target.dataset.filter 인지 target.dataset.speedfilter인지 구분
         */
@@ -520,7 +518,6 @@
           });
           if (Array.from(chkboxes).filter((itm) => itm.checked).length == 0) {
             if (speedArray.length == 0) filteredData = allData;
-            
             else if (speedArray.length > 0) filteredData = allData.filter((itm) => speedArray.includes(itm.speedStandard));
           } else {
             if (speedArray.length == 0) filteredData = allData.filter((itm) => itm.category == target.dataset.filter);
