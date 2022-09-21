@@ -4,7 +4,7 @@
 * design : Photoshop
 
 # Description
-메인페이지,서브페이지(GNB : Products Quickmenu : project) 한국지사 미쓰비시엘레베이터 구축 홈페이지입니다.
+메인페이지,서브페이지(GNB : Products Quickmenu : project)이동경로 한국지사 미쓰비시엘레베이터 구축 홈페이지입니다.
 
 # Creation Period
 2022-08-07 ~ 08-15
@@ -122,7 +122,7 @@
 ```
 
 * 조건 : 용도별 오피스,호텔,주상복합,아파트,공공병원,MOD
-  *input data-filter속성값 : let chkboxes = document.querySelectorAll("[data-filter]");
+  * input data-filter속성값 : let chkboxes = document.querySelectorAll("[data-filter]");
    
 ```C
           if (Object.keys(target.dataset)[0] == "filter") {
